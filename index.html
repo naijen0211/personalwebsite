@@ -1,117 +1,85 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Naijen's Personal Site</title>
+<!doctype html>
 
-        <meta name="description" content="Everything about Naijen">
-    </head>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Naijen Chang</title>
+    <meta name="" content="">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="css/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Sacramento&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Sacramento&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Neucha&family=Sacramento&family=Yusei+Magic&display=swap" rel="stylesheet">
+</head>
 
-    <body style="background-color: #fff3e6;">
-        <table>
-            <tr>
-                <td>
-                    <img src="iD PHoto.png" alt="Naijen's Photo", width="140" height="150" style="padding-left: 10px;">
-                </td>
-                <td>
-                     <h2 style="padding-left: 10px;"><strong>Nai-Jen Chang</strong></h2>
-                     <h4 style="padding-left: 10px;">A coffee Lover and Science Geek</h4>
-                </td>
-            </tr>
-        </table>
-        <br>
-        <hr size=4">
-        <br>
-        <h4><em>Education</em></h4>
-        <p style="padding-left: 10px;"><i>Master</i> in Chemical Engineering at <i>UC San Diego</i> and <i>Bachelor</i> in Chemistry at <i>NTHU</i>.</p>
-        <h4><em>A bit about myself...</em></h4>
-        <p style="padding-left: 10px;">Hi, this is Naijen. I am a science lover, and recently start learning coding.</p>
-        <h4><em>Skills and Expertise</em></h4>
-        <h5 style="padding-left: 10px;"><em>Wet Lab Skill:</em></h5>
+
+<body>
+
+<div class="top-container" style="position:relative">
+    <h1 style="font-size:90px; padding-left:100px">Naijen Chang </h1>
+    <p class="name" style="font-size:2.5rem; font-weight:normal; line-height:2">my personal website to <span style="font-weight: bold">learn</span> more.</p>
+    <img class="periodic-table-image" src="./css/CSS - My Site Images/periodic-table.png" alt="periodic pic" style="width:100px; height:100px; position:absolute; top:100px; right:150px">
+</div>
+
+<div class="middle-container">
+
+  <div class="profile">
+    <img class = "id" style="cursive; display: block;"  src="./css/CSS - My Site Images/ID.png" alt="My cute photo">
+    <h2 style="text-align:center; display: inline-block">Hello,</h2>
+    <p style="text-align:center;display: inline-block">I am a science and drinks(coffee/tea) lover, and recently start learning coding.</p>
+    <hr>
+    <h2>Educations.</h2>
+      <p style="padding-left: 10px;"><i>Master</i> in Chemical Engineering at <i>UC San Diego</i> and <i>Bachelor</i> in Chemistry at <i>NTHU</i>.</p>
+  </div>
+
+
+  <div class="skills">
+    <h2>My Skills.</h2>
+    <div class="skill-row-left" style="width:45%; display:inline-block">
+      <img class="lab-image" src="./css/CSS - My Site Images/lab.png" alt="lab image">
+      <h3>Wet Lab Skill:</h3>
+        <p>2+ year material synthesis experience in organic electronics.</p>
         <ul>
             <li> Synthesis: Schlenk Line(dehydraion and fill in N2)</li>
             <li> Purification: Extraction, Filtration, Rota-Vape, HPLC, CC, TLC,...</li>
             <li> Characterization: UV-VIS, NMR, MS...</li>
         </ul>
-        <h5 style="padding-left: 10px;"><em>Dry Lab Skill:</em></h5>
-        <ul>
+    </div>
+    <div class="skill-row-right" style="width:45%; display:inline-block">
+      <img class="computer-image" src="./css/CSS - My Site Images/database-storage.png" alt="computer pic">
+      <h3>Dry Lab Skill:</h3>
+      <p>1+ year experience in quantum energy calculation and MD simulations.</p>
+      <ul>
             <li> Computation Chemistry: Q-Chem, QuantumEspresso..</li>
             <li> Simulation: LAMMPS.</li>
             <li> Programming: Python, HTML..</li>
             <li> Machine Learning and Data Science: Pandas, Numpy, Scikit-Learn, TensorFLow 2.</li>
-        </ul>
-        <h4><em>Skills Strength</em></h4>
-        <table cellspacing="10">
-            <tr>
-                <td>
-                    <table>
-                    <tr>
-                        <td>
-                            Python
-                        </td>
-                        <td>
-                            ★★★★
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Web Development
-                        </td>
-                        <td>
-                            ★
-                        </td>
-                    </tr>
-                    </table>
-                </td>
-                <td>
-                    <table>
-                    <tr>
-                        <td>
-                            Lab Skill
-                        </td>
-                        <td>
-                            ★★★★
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Photograph
-                        </td>
-                        <td>
-                            ★★★
-                        </td>
-                    </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
+      </ul>
+    </div>
+  </div>
+  <hr>
+  <div class="contact-me">
+    <img class="contact-image" src="./css/CSS - My Site Images/atom-2.png" alt="atom pic">
+    <p>The best way to predict the future is to create it. -Abraham Lincoln.</p>
+    <a class="btn" href="mailto:naijen0211@gmail.com" style="font-family:Neucha; font-size:25px">CONTACT ME</a>
+  </div>
 
-        <h4><em>Work Experience</em></h4>
-        <Table cellspacing="10">
-            <th>
-                <tr>
-                    <th>Date   </th>
-                    <th>Company   </th>
-                    <th>position   </th>
-                </tr>
-            </th>
-            <tr>
-                <td>2020</td>
-                <td>Innopep.Inc</td>
-                <td>Engineer</td>
-            </tr>
-            <tr>
-                <td>2019</td>
-                <td>UCSD</td>
-                <td>Research Assistant</td>
-            </tr>
-        </Table>
-        <hr>
-        <h4><em>My Hobby</em></h4>
-        <ol>
-            <li><a href="www.flickr.com/josep8866chang">Photograph</a></li>
-            <li>Sleep</li>
-        </ol>
-        <h4><em><a href="contact.html">Contact Me</a></em></h4>
-    </body>
+</div>
+
+
+<div class="bottom-container">
+
+  <a class="footer-link" href="https://www.linkedin.com/in/nai-jen-joseph-chang-bb649453/" style="padding:20px">LinkedIn</a>
+  <a class="footer-link" href="https://www.flickr.com/photos/josep8866chang/" style="padding:20px">Flickr</a>
+  <a class="footer-link" href="https://www.facebook.com/naijenc" style="padding:20px">Facebook</a>
+  <p>© 2021 Naijen Chang.</p>
+
+</div>
+
+
+</body>
+
+
 </html>

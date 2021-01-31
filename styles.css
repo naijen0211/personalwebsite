@@ -1,0 +1,120 @@
+head {
+    text-align:center;
+    }
+
+body {
+    background-color: #fff3e6;
+}
+
+.top-container {
+    background-color: #fff3e6;
+}
+
+.profile {
+    text-align:center;
+
+}
+.middle-container {
+    text-align:center;
+    padding-top: 50px;
+}
+
+.bottom-container {
+    text-align:center;
+    padding-top: 50px;
+    text-align:center;
+}
+
+.contact-me {
+    text-align:center;
+}
+
+
+.name {
+    position: absolute;
+    top: 125px;
+    left: 200px;
+    font-family: 'Neucha', cursive;
+}
+
+
+h1 {
+    margin-left: 20px;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2 {
+    margin-left: 20px;
+    font-family: 'Neucha', cursive;
+    color :#66BFBF;
+
+}
+
+h3 {
+    margin-left: 20px;
+    font-family: 'Yusei Magic', sans-serif;
+    color :#11999E;
+}
+
+p {
+    margin-left: 20px;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.skills {
+}
+
+.skill-row-left {
+    text-align:center;
+    font-family: 'Yusei Magic', sans-serif;
+
+}
+
+.skill-row-right {
+    text-align:center;
+    font-family: 'Yusei Magic', sans-serif;
+
+}
+
+
+.id {
+    margin: 0 auto 0 auto;
+    width:10%;
+    height:15%;
+    border-radius: 10%;
+
+}
+
+}
+
+.periodic-table-image {
+
+}
+
+.btn {
+    font-family:Neucha;
+    font-size:25px;
+    color: #11999E;
+}
+
+.footer-link {
+    font-family:Neucha;
+    font-size:25px;
+    color: #11999E;
+}
+
+.computer-image {
+    width:10%;
+    height:15%;
+}
+
+.lab-image {
+    width:10%;
+    height:15%;
+}
+
+.contact-image {
+    width:10%;
+    height:15%;
+}
